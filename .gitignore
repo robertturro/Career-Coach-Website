@@ -1,1 +1,8 @@
+# Backend FastAPI project
+__pycache__/
+.env
+*.pyc
+
+
 /venv/
+/node_modules/
