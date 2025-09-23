@@ -1,0 +1,15 @@
+body,
+html {
+  /*min-height: 100vh;*/
+
+  font-family: "Inter", "Roboto", "Segoe UI", "Helvetica Neue", Arial,
+    "Liberation Sans", "system-ui", sans-serif;
+  background: linear-gradient(135deg, #23272f 0%, #b92a1f 100%);
+  color: #222;
+}
+
+.layout-container {
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+}

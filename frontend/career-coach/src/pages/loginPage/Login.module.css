@@ -1,0 +1,135 @@
+/* Login header styles */
+.login-header {
+  font-weight: 800;
+  color: #f3eeed;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  letter-spacing: -1px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Password input wrapper for relative positioning */
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* Password input field (full width) */
+.password-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Password toggle button (eye icon) */
+.password-toggle-btn {
+  position: relative;
+  margin-left: -36px;
+  background: none;
+  border: none;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+}
+/* Login Page Styles */
+.login-container {
+  max-width: 400px;
+  margin-top: 20px;
+  background: rgba(129, 84, 84, 0.85) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(255, 75, 43, 0.15);
+  padding: 2.5rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f3eeed;
+  margin-bottom: 1.5rem;
+}
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #f3eeed;
+  text-align: left;
+}
+.login-form label[for="password"] {
+  margin-top: 10px;
+}
+.login-form input {
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.7rem;
+  border: 1.5px solid transparent;
+  border-color: #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  background: rgba(189, 169, 169, 0.85);
+}
+
+/* Prevent autofill from changing input background color */
+.login-form input:-webkit-autofill,
+.login-form input:-webkit-autofill:focus,
+.login-form input:-webkit-autofill:hover,
+.login-form input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #f3f3f3 inset !important;
+  box-shadow: 0 0 0 1000px #f3f3f3 inset !important;
+  -webkit-text-fill-color: #222 !important;
+  color: #222 !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* Add extra space below the email input only */
+.login-form input[type="email"] {
+  margin-bottom: 3.5rem;
+}
+
+.login-form input:last-of-type {
+  margin-bottom: 0;
+}
+.login-form input:focus {
+  border-color: #ff4b2b;
+}
+.login-btn {
+  background: linear-gradient(90deg, #ff4b2b 0%, #ff416c 100%);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+.login-btn:hover {
+  background: linear-gradient(90deg, #ff416c 0%, #ff4b2b 100%);
+}
+.login-register {
+  font-size: 0.98rem;
+  color: #f3eeed;
+  margin-top: 0.5rem;
+}
+.login-register span {
+  color: #ff4b2b;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 0.3rem;
+}
